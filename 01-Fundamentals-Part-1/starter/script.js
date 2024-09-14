@@ -198,7 +198,12 @@ if (scoreDolphins > scoreKoalas) {
 // const age = 23
 // age>= 18 ? console.log('i like wine') : console.log('i like coffee');
 
-const bill = 275;
-let billByFifity = bill * (15 / 100);
-let billByTwenty = bill * (20 / 100);
-let tip = bill >= 500 && bill <= 300 ? billByTwenty : billByFifity;
+// const bill = 275;
+// let billByFifity = bill * (15 / 100);
+// let billByTwenty = bill * (20 / 100);
+// let tip = bill >= 500 && bill <= 300 ? billByTwenty : billByFifity;
+// let finalBill = bill + tip
+
+// console.log(
+//   `The bill was ${bill}, the tip was ${tip}, and the total value ${finalBill}.`
+// );
