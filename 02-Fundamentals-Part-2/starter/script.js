@@ -134,7 +134,7 @@ console.log(jonas); */
 // jonas.friends.length;
 // jonas.bestFriend = jonas.friends[0];
 
-const jonas = {
+/* const jonas = {
   firstName: "Jonas",
   lastName: "Schmedtmann",
   age: 2037 - 1991,
@@ -156,3 +156,19 @@ const jonas = {
 console.log(jonas.calcAge());
 console.log(jonas.age);
 console.log(jonas.getSummary());
+ */
+
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: true,
+  birthYear: 1991,
+};
+
+// o array começa a contar no 0
+for (let i = 0; i >= jonas.length; i++) {
+  console.log(jonas[i]);
+}
